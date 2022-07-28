@@ -9,9 +9,25 @@ body {
 .learning-title {
     font-size: 4rem;
     font-weight: 600;
-    
+}
+.tech-btn-warning{
+    background-image: linear-gradient(to top, orange, tomato);
 }
 
 .text-justify{
     text-align: justify;
+}
+
+.animation-register {
+    animation: coloring 4s ease-in-out .5s infinite alternate;
+}
+
+@keyframes coloring {
+    0% {
+        background-color: #0d6efd;
+        
+    }
+
+    100% {background-color: #ffc107;}
+
 }
