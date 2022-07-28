@@ -58,7 +58,10 @@
                                 <a class="nav-link" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="btn btn-warning text-light" href="#">Register</a>
+                                <button type="button" class="btn btn-warning text-light " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Register
+                                </button>
                             </li>
 
                         </ul>
@@ -91,9 +94,9 @@
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block pb-5 mb-5  ">
                             <div class="d-flex justify-content center align-items-center flex-column ">
-                                <h1 class="fs-1 fw-semibold">Get Started Digital Learning</h1>
+                                <h1 class="learning-title">Get Started Digital <br> Learning</h1>
                                 <p class="py-3">Educational technology is the combined use of computer hardware,
-                                    software, and educational theory and practice to facilitate learning.</p>
+                                    s<br> oftware, and educational theory and practice to facilitate learning.</p>
                                 <a href="#" class="btn btn-warning text-light text-light"> Get Started</a>
                             </div>
                         </div>
@@ -103,9 +106,10 @@
                         <img src="images/cover/cover-2.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block pb-5 mb-5  ">
                             <div class="d-flex justify-content center align-items-center flex-column ">
-                                <h1 class="fs-1 fw-semibold">Get Started Digital Learning</h1>
+                                <h1 class="learning-title">Get Started Digital <br> Learning</h1>
                                 <p class="py-3">Educational technology is the combined use of computer hardware,
-                                    software, and educational theory and practice to facilitate learning.</p>
+                                    <br> software, and educational theory and practice to facilitate learning.
+                                </p>
                                 <a href="#" class="btn btn-warning text-light"> Get Started</a>
                             </div>
                         </div>
@@ -115,9 +119,10 @@
                         <img src="images/cover/cover-3.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block pb-5 mb-5  ">
                             <div class="d-flex justify-content center align-items-center flex-column ">
-                                <h1 class="fs-1 fw-semibold">Get Started Digital Learning</h1>
+                                <h1 class="learning-title">Get Started Digital <br> Learning</h1>
                                 <p class="py-3">Educational technology is the combined use of computer hardware,
-                                    software, and educational theory and practice to facilitate learning.</p>
+                                    <br> software, and educational theory and practice to facilitate learning.
+                                </p>
                                 <a href="#" class="btn btn-warning text-light"> Get Started</a>
                             </div>
                         </div>
@@ -152,7 +157,7 @@
                     content of a page when looking at its layout.</p>
             </div>
             <div class="row row-cols-md-1 row-cols-sm-1 gy-3 gx-3 d-flex justify-content-between mt-5">
-                <div class="card p-0" style="max-width: 540px;">
+                <div class="card p-0 rounded-4" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="images/course/course-1.png" class="img-fluid rounded-start  " alt="...">
@@ -248,6 +253,9 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center my-5">
+                <a href="#" class="btn btn-warning text-light ">See More Courses</a>
+            </div>
 
         </section>
         <!-- Discover Courses End-->
@@ -315,63 +323,112 @@
                 </div>
             </div>
             <!-- Modal Start -->
-        <!-- Button trigger modal -->
+            <!-- Button trigger modal -->
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header p-5 pb-4 border-bottom-0">
-                        <!-- <h5 class="modal-title">Modal title</h5> -->
-                        <h2 class="fw-bold mb-0">Sign up for free</h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header p-5 pb-4 border-bottom-0">
+                            <!-- <h5 class="modal-title">Modal title</h5> -->
+                            <h2 class="fw-bold mb-0">Sign up for free</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
 
-                    <div class="modal-body p-5 pt-0">
-                        <form class="">
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control rounded-3" id="floatingInput"
-                                    placeholder="name@example.com">
-                                <label for="floatingInput">Email address</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="password" class="form-control rounded-3" id="floatingPassword"
-                                    placeholder="Password">
-                                <label for="floatingPassword">Password</label>
-                            </div>
-                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
-                            <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-                            <hr class="my-4">
-                            <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
-                            <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
-                                <svg class="bi me-1" width="16" height="16">
-                                    <use xlink:href="#twitter" />
-                                </svg>
-                                Sign up with Twitter
-                            </button>
-                            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
-                                <svg class="bi me-1" width="16" height="16">
-                                    <use xlink:href="#facebook" />
-                                </svg>
-                                Sign up with Facebook
-                            </button>
-                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
-                                <svg class="bi me-1" width="16" height="16">
-                                    <use xlink:href="#github" />
-                                </svg>
-                                Sign up with GitHub
-                            </button>
-                        </form>
+                        <div class="modal-body p-5 pt-0">
+                            <form class="">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control rounded-3" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control rounded-3" id="floatingPassword"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign
+                                    up</button>
+                                <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                                <hr class="my-4">
+                                <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                                <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16">
+                                        <use xlink:href="#twitter" />
+                                    </svg>
+                                    Sign up with Twitter
+                                </button>
+                                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16">
+                                        <use xlink:href="#facebook" />
+                                    </svg>
+                                    Sign up with Facebook
+                                </button>
+                                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                    <svg class="bi me-1" width="16" height="16">
+                                        <use xlink:href="#github" />
+                                    </svg>
+                                    Sign up with GitHub
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Modal End -->
+            <!-- Modal End -->
         </section>
-
-        
         <!-- Registration Section ENd  -->
+
+        <!-- Successful Students Section Start  -->
+
+        <section class="container mt-5 mb-5">
+            <div class="mb-5">
+                <h3 class="fs-1 font-bold">Meet Our Successful <br>
+                    Students</h3>
+                <p>Here some photographs and profile of our Successful students who got training by our team. </p>
+            </div>
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-5 d-flex justify-content-evenly ">
+                <div class="card p-0 rounded-3" style="width: 16rem;">
+                    <img src="images/student/student-1.png" class="card-img-top rounded-top img-fluid " alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-semibold "> Awlad Hossain </h5>
+                        <p class="card-text text-muted">UIUX Designer </p>
+
+                    </div>
+                </div>
+                <div class="card p-0 rounded-3" style="width: 16rem;">
+                    <img src="images/student/student-2.png" class="card-img-top rounded-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-semibold "> Jannatul Islam </h5>
+                        <p class="card-text text-muted">Motion Designer </p>
+
+                    </div>
+                </div>
+                <div class="card p-0 rounded-3" style="width: 16rem;">
+                    <img src="images/student/student-3.png" class="card-img-top rounded-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-semibold "> Imran Hossain </h5>
+                        <p class="card-text text-muted">Graphics Designer </p>
+
+                    </div>
+                </div>
+                <div class="card p-0 rounded-3" style="width: 16rem;">
+                    <img src="images/student/student-4.png" class="card-img-top rounded-top img-fluid" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-semibold "> Nishi Akter </h5>
+                        <p class="card-text text-muted">Web Developer </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center my-5">
+                <a href="#" class="btn btn-warning text-light ">View All</a>
+            </div>
+        </section>
+        <!-- Successful Students Section End  -->
     </main>
     <!-- Main End -->
 
@@ -380,7 +437,7 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
 
-   
+
     <!-- Bootstrap JS Link  -->
 
 </body>
