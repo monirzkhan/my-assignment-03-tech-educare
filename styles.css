@@ -18,16 +18,21 @@ body {
     text-align: justify;
 }
 
-.animation-register {
+.s-icons{
+    font-size: 1.5rem;
+    padding: 10px;
     animation: coloring 4s ease-in-out .5s infinite alternate;
 }
 
+
 @keyframes coloring {
     0% {
-        background-color: #0d6efd;
+        color: maroon;
         
     }
 
-    100% {background-color: #ffc107;}
+    25% {color: dodgerblue;}
+    50% {color: red;}
+    100% {color: skyblue;}
 
 }
